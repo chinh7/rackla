@@ -27,9 +27,9 @@ defmodule Rackla.Mixfile do
   defp deps do
     [
       {:poison, "~> 2.1.0"},
-      {:hackney, "~> 1.4.8"},
+      {:hackney, "~> 1.5"},
       {:cowboy, "~> 1.0.4", optional: true},
-      {:plug, "~> 1.1.2"},
+      {:plug, "~> 1.1"},
       {:earmark, "~> 0.2.1", only: :dev},
       {:ex_doc, "~> 0.11.4", only: :dev},
       {:remix, "~> 0.0.2", only: :dev},
